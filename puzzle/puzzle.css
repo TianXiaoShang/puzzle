@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+body{
+    /* background-color:white; */
+    /* background-image:url(backgroundimage.jpg);     */
+    background-repeat: no-repeat;
+}
+
+
+.homePage{
+    position :relative;
+    background-image:url(backgroundimage2.jpg);
+    
+    height:100%;
+    width:100%;
+
+}
+.homePage .homeBtn{
+    position: absolute;
+    background-image: url(插卡.png);
+    width:505px;
+    height:608px;
+    bottom:0px;
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    left: -505px;
+}
+
+.homePage .homeInset{
+    z-index: 999;
+    position :relative;
+    overflow: hidden;
+}
+
+.homePage .homeInset li{
+    position :absolute;
+    background-repeat: no-repeat;
+}
+
+
+
+.puzzle{
+    position: absolute;
+    display:none;
+    left:0px;
+    top:0px;
+    background-repeat:no-repeat;
+    background-image: url(backgroundimage.jpg);
+}
+.header{
+    float: left;
+    padding:15px 0px 15px 0px;
+    width:150px;
+    margin:200px 50px 0px 50px;
+    background-color:rgba(255, 255, 255,0.5);
+    border-radius:10px;
+}
+.header .puzBtn{
+    background-image:url(btn.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:38px;
+    width:100px;
+    margin:0 auto;
+    text-align: center;
+    line-height:38px;
+    color:rgb(255, 255, 255);
+    margin-bottom:10px;
+    padding:0px 10px;
+    cursor: pointer;
+}
+
+.header .schoose{
+    color:rgb(255, 174, 0);
+    font-weight:700;
+    cursor: default;    
+}
+.header .count{
+    color:rgb(255, 174, 0);
+    font-weight:700;
+    cursor: default;
+}
+.header .start-again{
+    background-image:url(btn2.png);
+    height:75px;
+    width:100px;
+    line-height: 100px;
+    color:rgb(255, 174, 0);
+    font-size: 25px;
+    font-weight:700;
+}
+.content{
+    position: absolute;
+    border:5px solid rgb(255, 255, 255);
+    top:110px;
+    left:303px;
+    width:1200px;
+    height:600px;
+    background-image: url(dcdl.jpg);
+    overflow: hidden;
+}
+.content .puzBox{
+    position: absolute;
+    border:1px solid white;
+    border-radius:8px;
+    /* display: none; */
+}
